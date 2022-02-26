@@ -1,0 +1,23 @@
+#shuffle-sort-container #buttons {
+    width: 25%;
+    margin-top: 5px;
+}
+
+#shuffle-sort-container button {
+    width: 80%;
+    color: white;
+    background-color: #72C3DC;
+    border: none;
+    padding: 1.5vw 25px;
+    margin-top: 15px;
+    border-radius: 10px !important;
+    box-shadow: 0 6px #2B8EAD;
+    cursor: pointer;
+}
+
+#shuffle-sort-container button:active {
+    box-shadow: 0 2px #2B8EAD;
+    transform: translateY(3px);
+    border-radius: 10px;
+
+}

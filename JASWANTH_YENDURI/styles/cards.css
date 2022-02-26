@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    background-color: #EFEFEF;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#shuffle-sort-container {
+    display: flex;
+}
+
+#shuffle-sort-container #cards {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+#shuffle-sort-container #cards div {
+    display: flex;
+}
+
+#shuffle-sort-container #cards p {
+    width: 33.3333%;
+    font-family: monospace;
+    font-size: 10vw;
+    font-weight: 600;
+    line-height: 15vw;
+    margin: 0px;
+    color: white;
+    cursor: default;
+}
